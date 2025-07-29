@@ -291,7 +291,7 @@ main {
     width: 100%;
     border-radius: 10px;
     font-family: Tourney, sans-serif;
-    margin-top: 1vh
+    margin-top: 2vh
 }
 
 #games-card-content {
@@ -364,7 +364,7 @@ main {
     grid-column: 1 / span 6;
     width: 100%;
     border-radius: 10px;
-    margin-top: 2vh;
+    margin-top: 2.9vh;
     font-family: Tourney, sans-serif;
 }
 
@@ -672,6 +672,9 @@ main {
     .nav-link {
         font-size: 1.7rem;
     }
+    #logo {
+        margin-left: .75vw;
+    }
 }
 
 @media screen and (max-width: 447px) {
@@ -681,9 +684,12 @@ main {
     #games, #consoles, #cards, #other {
         font-size: 1.7rem;
     }
+    #consoles-card-title {
+        font-size: 1.9rem;
+    }
 }
 
-@media screen and (max-width: 431px) {
+@media screen and (max-width: 439px) {
     #logo {
         font-size: 1.2rem;
     }
@@ -693,13 +699,25 @@ main {
     #other-card-content {
         font-size: 1.6rem;
     }
+    #consoles-card-title {
+        font-size: 1.8rem;
+    }
 }
 
-@media screen and (max-width: 417px) {
+@media screen and (max-width: 423px) {
     #logo {
         font-size: 1.1rem;
     }
     #games, #consoles, #cards, #other {
+        font-size: 1.6rem;
+    }
+    #consoles-card-title {
+        font-size: 1.7rem;
+    }
+}
+
+@media screen and (max-width: 417px) {
+    #consoles-card-title {
         font-size: 1.6rem;
     }
 }
@@ -713,6 +731,25 @@ main {
     }
 }
 
+@media screen and (max-width: 397px) {
+    #games, #consoles, #cards, #other {
+        font-size: 1.4rem;
+    }
+    #scrolling-text {
+        font-size: 1.6rem;
+    }
+    #logo {
+        margin-left: .15vw;
+    }
+}
+
+@media screen and (max-width: 387px) {
+    #logo {
+        margin-left: 0;
+        font-size: 1.2rem;
+    }
+
+}
 @keyframes neonGlow {
     0% {
         text-shadow: 0 0 2px var(--color-white), 0 0 2px var(--color-white), 0 0 7px var(--color-neon), 0 0 12px var(--color-neon), 0 0 17px var(--color-neon), 0 0 22px var(--color-neon), 0 0 27px var(--color-neon);
@@ -733,4 +770,5 @@ main {
         /* transform: translateX(-100%); */
     }
 }
+
 
