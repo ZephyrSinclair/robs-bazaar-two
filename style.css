@@ -741,6 +741,9 @@ main {
     #logo {
         margin-left: .15vw;
     }
+     #consoles-card-title {
+        font-size: 1.4rem;
+    
 }
 
 @media screen and (max-width: 387px) {
@@ -748,8 +751,21 @@ main {
         margin-left: 0;
         font-size: 1.2rem;
     }
-
+    #consoles, #games, #cards, #other {
+        font-size: 1.1rem;
+    }
 }
+
+@media screen and (max-width: 3770px) 
+{
+    #logo {
+        font-size: .9rem;
+    }
+    #consoles {
+        font-size: 1rem;
+    }
+}
+
 @keyframes neonGlow {
     0% {
         text-shadow: 0 0 2px var(--color-white), 0 0 2px var(--color-white), 0 0 7px var(--color-neon), 0 0 12px var(--color-neon), 0 0 17px var(--color-neon), 0 0 22px var(--color-neon), 0 0 27px var(--color-neon);
@@ -770,3 +786,4 @@ main {
         /* transform: translateX(-100%); */
     }
 }
+
