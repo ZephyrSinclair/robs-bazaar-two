@@ -70,3 +70,4 @@ window.addEventListener('resize', function() {
         homeText.style.display = 'none';
     }
 })
+
